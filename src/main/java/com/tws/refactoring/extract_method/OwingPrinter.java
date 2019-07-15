@@ -25,6 +25,7 @@ public class OwingPrinter {
         System.out.println ("****** Customer totals ******");
         System.out.println ("*****************************");
     }
+
 }
 
 class Order {
