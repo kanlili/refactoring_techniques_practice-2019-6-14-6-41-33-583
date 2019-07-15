@@ -28,7 +28,7 @@ public class PriceCalculatorTest {
       }
      @Test
      public  void should_return_price_when_call_getPrice_given_number3() {
-      PriceCalculator priceCalculator = new PriceCalculator();
+      PriceCalculator priceCalculator=new PriceCalculator();
       double result = priceCalculator.getPrice(600, 1);
       double expectResult = 655.0;
       assertThat(expectResult, is(result));
